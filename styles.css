@@ -1,0 +1,28 @@
+body {background-image: url(smile.gif);
+    text-align: center;
+}
+
+h4{color: red}
+h4{font-family: Courier}
+h1{font-size: 3em}
+h1{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+h3{text-shadow:1in 2in 2px greenyellow}
+h3{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+h2{animation: 3s linear 1s infinite alternate slidein;}
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:rgb(101, 101, 130); left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  
+h2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
